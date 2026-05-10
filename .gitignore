@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.env/
+.conda/
+
+# Raw data should stay local
+data_raw/*
+
+# Keep the data_raw README tracked
+!data_raw/README.md
+
+# Temporary outputs
+*.log
+*.tmp
+*.bak
